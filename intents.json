@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there"],
+      "responses": ["Hi! How can I help you with movies today?", "Hello! Looking for a movie recommendation?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye! Enjoy your movie!", "Bye! Have a great day!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "tag": "recommend_movie",
+      "patterns": ["Can you recommend a movie?", "Suggest a movie", "What movie should I watch?", "Recommend a good movie"],
+      "responses": ["Certainly! Here are the five films I recommend:", "Absolutely! Here are the five movies I highly recommend:", "I'd be delighted to assist! Here are the five films I suggest:"]
+    },
+    {
+      "tag": "specific_movie",
+      "patterns": ["Tell me about", "What do you know about?", "Can you give details"],
+      "responses": ["Here are the details you sought after", "Presenting the specific information you requested", "Providing the requested details for your review"]
+    },
+    {
+      "tag": "movie_rating",
+      "patterns": ["What's the rating of the movie?", "How is the movie rated?", "Can you tell me the rating of this movie?", "What is the movie's rating?", "Movie rating please"],
+      "responses": [
+        "The movie is rated {}.",
+        "It has a {} rating.",
+        "The rating of the movie is {}."
+      ]
+    },
+    {
+      "tag": "movie_runtime",
+      "patterns": ["What's the runtime of the movie?", "How long is the movie?", "Can you tell me the duration of the movie?", "What is the movie's runtime?", "Movie runtime please"],
+      "responses": [
+        "The movie has a runtime of {} mins.",
+        "It runs for {} mins.",
+        "The runtime of the movie is {} mins."
+      ]
+    },
+    {
+      "tag": "movie_genre",
+      "patterns": ["What's the genre of the movie?", "What kind of movie is this?", "Can you tell me the genre of the movie?", "What genre does the movie belong to?", "Movie genre please"],
+      "responses": [
+        "The movie belongs to the {} genre.",
+        "It is categorized under {}.",
+        "The genre of the movie is {}."
+      ]
+    },
+    {
+      "tag": "movie_release",
+      "patterns": ["When was the movie released?", "What is the release date of the movie?", "Can you tell me the release date of the movie?", "When did the movie come out?", "Movie release date please"],
+      "responses": [
+        "The movie was released on {}.",
+        "Its release date is {}.",
+        "It came out on {}."
+      ]
+    }  
+  ]
+}
